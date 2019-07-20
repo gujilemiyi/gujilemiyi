@@ -1,94 +1,136 @@
 {
-  "messages": [
+  "toppings": [
     {
       "id": 1,
-      "folder": "inbox",
-      "from": "Jane Smith",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
-      "full": "Full message from Jane Smith",
-      "timestamp": 1487848162905
+      "name": "anchovy"
     },
     {
       "id": 2,
-      "folder": "inbox",
-      "from": "John Doe",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
-      "full": "Full message from John Doe",
-      "timestamp": 1487845787719
+      "name": "bacon"
     },
     {
       "id": 3,
-      "folder": "inbox",
-      "from": "Joseph Hanes",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
-      "full": "Full message from Joseph Hanes",
-      "timestamp": 1487845787719
+      "name": "basil"
     },
     {
       "id": 4,
-      "folder": "trash",
-      "from": "Laurence Murray",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
-      "full": "Full message from Laurence Murray",
-      "timestamp": 1487845787719
-    }
-  ],
-  "playlist": [
-    {
-      "id": 1,
-      "artist": "Oasis",
-      "track": "Half The World Away",
-      "listened": false,
-      "favourite": true
-    },
-    {
-      "id": 2,
-      "artist": "Pink Floyd",
-      "track": "Wish You Were Here",
-      "listened": true,
-      "favourite": false
-    },
-    {
-      "id": 3,
-      "artist": "Blink-182",
-      "track": "All The Small Things",
-      "listened": false,
-      "favourite": true
-    },
-    {
-      "id": 4,
-      "artist": "Third Eye Blind",
-      "track": "Get Me Out Of Here",
-      "listened": true,
-      "favourite": false
+      "name": "chili"
     },
     {
       "id": 5,
-      "artist": "The Chainsmokers",
-      "track": "Closer",
-      "listened": false,
-      "favourite": false
+      "name": "mozzarella"
     },
     {
       "id": 6,
-      "artist": "Sia",
-      "track": "Cheap Thrills",
-      "listened": true,
-      "favourite": true
+      "name": "mushroom"
     },
     {
       "id": 7,
-      "artist": "Birdy",
-      "track": "Wild Horses",
-      "listened": false,
-      "favourite": true
+      "name": "olive"
     },
     {
       "id": 8,
-      "artist": "Stereophonics",
-      "track": "Local Boy In The Photograph",
-      "listened": false,
-      "favourite": false
+      "name": "onion"
+    },
+    {
+      "id": 9,
+      "name": "pepper"
+    },
+    {
+      "id": 10,
+      "name": "pepperoni"
+    },
+    {
+      "id": 11,
+      "name": "sweetcorn"
+    },
+    {
+      "id": 12,
+      "name": "tomato"
+    }
+  ],
+  "pizzas": [
+    {
+      "name": "Blazin' Inferno",
+      "toppings": [
+        {
+          "id": 10,
+          "name": "pepperoni"
+        },
+        {
+          "id": 9,
+          "name": "pepper"
+        },
+        {
+          "id": 3,
+          "name": "basil"
+        },
+        {
+          "id": 4,
+          "name": "chili"
+        },
+        {
+          "id": 7,
+          "name": "olive"
+        },
+        {
+          "id": 2,
+          "name": "bacon"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Seaside Surfin'",
+      "toppings": [
+        {
+          "id": 6,
+          "name": "mushroom"
+        },
+        {
+          "id": 7,
+          "name": "olive"
+        },
+        {
+          "id": 2,
+          "name": "bacon"
+        },
+        {
+          "id": 3,
+          "name": "basil"
+        },
+        {
+          "id": 1,
+          "name": "anchovy"
+        },
+        {
+          "id": 8,
+          "name": "onion"
+        },
+        {
+          "id": 11,
+          "name": "sweetcorn"
+        },
+        {
+          "id": 9,
+          "name": "pepper"
+        },
+        {
+          "id": 5,
+          "name": "mozzarella"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Plain Ol' Pepperoni",
+      "toppings": [
+        {
+          "id": 10,
+          "name": "pepperoni"
+        }
+      ],
+      "id": 3
     }
   ]
 }
